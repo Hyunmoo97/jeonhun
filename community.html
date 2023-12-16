@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VINTAGE MOA</title>
+  <link rel="stylesheet" href="community.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/65b4c61d54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="main1">
+    <section class="header">
+      <a class="logo" href="index.html">VINTAGE MOA</a></div>
+      <a class="bar" href="#"><i class="fa-solid fa-bars"></i></a>
+      <ul class="menu_left">
+        <li><a href="area.html">AREA</a></li>
+        <li><a href="premium.html">PREMIUM</a></li>
+        <li><a href="woman.html">WOMAN</a></li>
+        <li><a href="man.html">MAN</a></li>
+        <li><a href="community.html">COMMUNITY</a></li>
+      </ul>
+      <ul class="menu_right">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#"><i class="fa-regular fa-user" width="15px"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+      </ul>
+    </section>
+  </section>
+  <div class="header-img">
+    <div class="area-title">Community</div>
+    <ul class="header-nav">
+      <li><a href=#>이용후기</a></li>
+      <li><a href=#>Style</a></li>
+    </ul>
+  </div>
+  </section>
+  <!--테이블-->
+  <table>
+    <caption>이용 후기</caption>
+    <thead>
+      <tr>
+        <th class="number"></th>
+        <th>사진</th>
+        <th class="title">제목</th>
+        <th>작성자</th>
+        <th>작성일자</th>
+        <th>조회수</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5</td>
+        <td><img src="./image/com (5).jpg" alt="리뷰 이미지">
+        </td>
+        <td>빈티지 플러스에서 폴로 셔츠 저렴하게 팔길래 샀어요! </td>
+        <td>김**</td>
+        <td>2023.07.25</td>
+        <td>12</td>
+
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><img src="./image/com (4).jpg" alt="리뷰 이미지">
+        </td>
+        <td>브론즈윅에서 아우터 구매했어요!</td>
+        <td>이**</td>
+        <td>2023.06.26</td>
+        <td>37</td>
+
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><img src="./image/com (3).jpg" alt="리뷰 이미지">
+        </td>
+        <td>꼴레드나인에서 샀는데 잘산것 같아요</td>
+        <td>박**</td>
+        <td>2023.04.12</td>
+        <td>120</td>
+
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><img src="./image/com (2).jpg" alt="리뷰 이미지">
+        </td>
+        <td>도쿄유즈드에서 구매했는데 완전 만족해요!</td>
+        <td>최**</td>
+        <td>2022.11.19</td>
+        <td>1</td>
+
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img src="./image/com (1).jpg" alt="리뷰 이미지">
+        </td>
+        <td>빈티지 플러스에서 샀는데 잘입고 있어요.</td>
+        <td>정**</td>
+        <td>2021.12.05</td>
+        <td>65</td>
+
+      </tr>
+    </tbody>
+  </table>
+  <nav class="bottom">
+    <ul>
+      <li><i class="fa-solid fa-chevron-left"></i></li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li><i class="fa-solid fa-chevron-right"></i></li>
+    </ul>
+  </nav>
+  <!--푸터-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>고객센터</h3>
+        <div class="footer-border">
+          <p>Tel: 010-1234-5678</p>
+          <p>평일: 08:00~22:00</p>
+          <p>점심시간: 12:30~13:30</p>
+          <p>공휴일 휴무</p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>BANK INFO</h3>
+        <div class="footer-border">
+          <p>국민은행</p>
+          <p>636102-01-343839</p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>SOCIAL NETWORK</h3>
+        <div class="footer-border" class="footer-border3">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>CONTACT</h3>
+        <div class="footer-border">
+          <p>e-mail: hhh8353@naver.com</p>
+          <p>Tel: 010-1234-5678</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('.bar').addEventListener('click', function () {
+      var menu = document.querySelector('.menu_left');
+      if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+
+</html>

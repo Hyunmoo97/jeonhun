@@ -1,0 +1,597 @@
+/*공통 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* */
+.main1 {
+  width: 100%;
+  height: 1024px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4) 40%
+    ),
+    url(https://www.ksf-global.com/wp-content/uploads/2020/06/shopping-2616824_1920.jpg);
+  background-position: center;
+}
+.bar {
+  display: none;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 32px;
+  font-family: 'DM Serif Display', serif;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.main1 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.main1 ul li {
+  font-size: 15px;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.menu_left {
+  margin-left: -290px;
+}
+.menu_left li a {
+  color: #ffffff;
+}
+.menu_right {
+  font-size: 15px;
+  gap: 0px;
+}
+.menu_right li a {
+  color: #ffffff;
+}
+.coment {
+  color: #ffffff;
+  margin-left: 73px;
+  margin-top: 130px;
+}
+.coment_1 {
+  font-size: 20px;
+}
+.coment_2 {
+  font-size: 45px;
+}
+.coment p {
+  margin-top: 100px;
+  font-size: 20px;
+  color: #e0e0e0;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+}
+/*메인2*/
+.main2 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #151515;
+  overflow: hidden;
+}
+.main2 .local {
+  margin-top: 70px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.main2 .local_menu {
+  display: flex;
+  justify-content: center;
+}
+
+.main2 .local_menu li {
+  width: 130px;
+  height: 55px;
+  margin: 0 10px;
+  margin-top: 70px;
+  background-color: #616161;
+  color: #f5f5f5;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 55px;
+  padding: 0;
+}
+.local_main {
+  display: flex;
+}
+.main2 .local2 span {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.main2 .local2 {
+  color: #e0e0e0;
+  font-size: 30px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+/*지역 이미지스타일 */
+.store-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #151515;
+  color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.store-image {
+  width: 50%; /* Image takes up half the width of the container */
+  height: 720px; /* Height is set to auto to maintain aspect ratio */
+  background-image: url('./image/TOKYO.jpg'); /* Update with the path to your store image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.store-description {
+  width: 50%; /* Description takes up the other half */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.store-description h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.vintage-shop {
+  color: #f5f5f5;
+}
+.store-description .text {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #aaaaaa;
+}
+.local_menu li:hover {
+  background-color: #ffffff;
+  color: #151515;
+}
+
+/*뉴 어라이벌*/
+.new-arrival-container {
+  background-color: #151515;
+}
+.new-arrival-header {
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.store-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.store {
+  padding: 0;
+  margin: 0;
+  width: 310px;
+  height: 440px;
+  margin-right: 20px;
+  display: flex;
+}
+.store img {
+  width: 310px;
+  height: 310px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  transition: transform 0.3s ease;
+}
+.store img:hover {
+  transform: scale(1.01);
+}
+.store-details {
+  width: 310px;
+  height: 130px;
+  background-color: #ffffff;
+  margin-top: 310px;
+  margin-left: -310px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left; /* Aligns the text to the left */
+  justify-content: space-around;
+}
+.store-name {
+  font-size: 1.2em;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.store-address {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 5px; /* Adjusted to add space for hashtags */
+}
+.hashtags {
+  margin-top: 30px;
+  font-size: 0.7em;
+  color: #888;
+  text-align: right;
+}
+/* 스타일정보*/
+.style {
+  color: #ffffff;
+}
+.style h2 {
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+}
+.style ul {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: light;
+}
+.style ul li:hover {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+  overflow: hidden;
+  height: 880px;
+}
+
+.text-area {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 0px;
+  width: 780px;
+  height: 880px;
+  overflow: hidden;
+}
+.text-area h1 {
+  margin-top: 150px;
+}
+.text-area p {
+  color: #949494;
+}
+
+.preview-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.preview-images img {
+  width: 130px; /* 미리보기 이미지의 너비 */
+  height: 192px; /* 미리보기 이미지의 높이 */
+  object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
+  overflow: hidden;
+  max-width: 100%; /* 이미지 최대 너비는 컨테이너의 100% */
+  height: auto; /* 비율 유지 */
+}
+
+.image-area {
+  width: 660px;
+  height: 880px; /* 메인 이미지의 높이를 설정 */
+  /* 메인 이미지가 정확히 이 크기로 나타나길 원한다면, */
+  /* 이미지 태그에도 너비와 높이를 지정해야 합니다. */
+}
+
+.image-area img {
+  width: 100%; /* 메인 이미지가 .image-area의 너비를 꽉 채우도록 설정 */
+  height: 880px; /* 메인 이미지의 높이를 설정 */
+  object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채우도록 설정 */
+}
+/*바텀 이미지 */
+.page-container {
+  width: 100%; /* 페이지 컨테이너의 너비를 조정할 수 있습니다. */
+  margin-top: 40px;
+}
+
+.top-image-container {
+  width: 100%;
+  max-width: 1300px;
+  height: 440px;
+  margin: auto; /* 가운데 정렬 */
+  background-color: #333; /* 배경색은 예시입니다. */
+}
+.top-image-container,
+.left-image-container,
+.right-image-container {
+  position: relative;
+}
+.image-text,
+.image-text2 {
+  position: absolute;
+}
+.image-text2 a {
+  color: #ffffff;
+}
+.image-text {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+/* 탑*/
+.top-image-container .image-text {
+  top: 40%;
+  left: 15%;
+}
+.top-image-container .image-text2 {
+  top: 55%;
+  left: 15%;
+  font-size: 1.5em;
+}
+/*바텀*/
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* 상단 이미지와의 간격 */
+}
+
+.left-image-container {
+  width: 750px;
+  height: 1100px;
+  margin-right: 20px; /* 오른쪽 이미지와의 간격 */
+  object-fit: cover;
+}
+.left-image-container .image-text {
+  top: 40%;
+  left: 15%;
+}
+.left-image-container .image-text2 {
+  top: 50%;
+  left: 15%;
+  font-size: 1.5em;
+}
+/* 오른쪽 */
+.right-image-container {
+  width: 530px;
+  height: 1100px;
+  object-fit: cover;
+}
+.right-image-container .image-text {
+  top: 40%;
+  left: 15%;
+}
+.right-image-container .image-text2 {
+  top: 50%;
+  left: 15%;
+  font-size: 1.5em;
+}
+
+/* 이미지 태그의 스타일 */
+.page-container img {
+  width: 100%;
+  height: 100%;
+}
+/*푸터 스타일 */
+.footer {
+  background-color: #424242; /* 백그라운드 이미지 경로 */
+  color: #ffffff;
+  text-align: left;
+  padding: 10px 0;
+  height: 200px;
+}
+.footer h3 {
+  margin: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+}
+
+.footer-column {
+  height: 100%;
+  margin-top: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.footer-border {
+  height: 130px;
+  padding-right: 20px;
+  margin: auto;
+  border-right: 2px solid #aaaaaa;
+}
+.footer-column h3 {
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #ffffff; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.footer-column::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: #868686;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.footer-border i {
+  font-size: 24px; /* 아이콘 크기 조정 */
+  margin-right: 50px;
+}
+
+/* 미디어버전 */
+@media (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: space-between; /* 아이템을 왼쪽에서 시작하도록 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+  }
+  .header .menu_left {
+    display: none;
+    position: absolute;
+    background-color: #151515; /* 배경색을 헤더의 배경색과 일치시킵니다. */
+    z-index: 1000; /* 다른 요소들 위에 표시됩니다. */
+    top: 100px; /* .header의 높이에 따라 조정하세요. */
+    left: 0;
+    width: 100%; /* 전체 너비 */
+  }
+
+  /* .bar:hover 상태에서 .menu_left를 표시합니다. */
+  .bar:hover + .menu_left {
+    display: block;
+  }
+  .header .logo {
+    flex-grow: 1; /* 로고가 남은 공간을 채우도록 함 */
+    text-align: center; /* 텍스트를 중앙으로 정렬 */
+    margin-left: 0; /* 왼쪽 마진 제거 */
+    margin-right: auto; /* 로고와 오른쪽 요소 사이의 공간을 자동으로 조정 */
+    font-size: em;
+  }
+
+  .bar {
+    display: flex; /* 모바일 뷰에서 아이콘 표시 */
+    order: -1; /* 이를 통해 .fa-bars를 왼쪽으로 이동 */
+    padding: 10px; /* 적절한 여백을 제공 */
+    color: #ffffff; /* 아이콘 색상 설정 */
+    align-self: center; /* 세로 중앙 정렬 */
+    font-size: 24px;
+    margin-left: 30px;
+  }
+  .header .menu_right {
+    margin-right: 30px;
+  }
+  .header .menu_right li:nth-child(1),
+  .header .menu_right li:nth-child(2) {
+    display: none; /* 모바일에서는 일부 메뉴 항목을 숨김 */
+  }
+  .coment {
+    margin-left: 23px;
+  }
+  .coment_1 {
+    font-size: 1em;
+  }
+  .coment_2 {
+    font-size: 2em;
+  }
+  .coment p {
+    font-size: 1em;
+  }
+  .main2 .local {
+    font-size: 1.3em;
+  }
+  .main2 .local_menu li {
+    width: 80px;
+    height: 35px;
+    font-size: 1em;
+    line-height: 35px;
+  }
+  .store-layout {
+    padding: 20px 0;
+  }
+  .store-image {
+    width: 720px;
+    justify-content: left;
+  }
+  .store-description {
+    display: none;
+    position: absolute;
+    order: -1;
+  }
+  .store-image {
+    transition: opacity 1s ease;
+  }
+  .store-image:hover {
+    opacity: 30%;
+  }
+
+  .store-image:hover + .store-description {
+    display: block; /* 또는 'flex', 'inline-block' 등 필요에 따라 다른 display 속성을 사용할 수 있습니다 */
+  }
+
+  .preview-images {
+    margin: 20px;
+    gap: 10px;
+  }
+  .preview-images img {
+    width: 65px;
+    height: auto;
+  }
+  .text-area {
+    height: 500px;
+  }
+  .image-area {
+    height: 500px;
+  }
+  .image-area img {
+    height: 540px;
+  }
+  .container {
+    height: 540px;
+  }
+  /* 바텀 이미지*/
+  .bottom-container {
+    flex-direction: column; /* 모바일 화면에서 세로로 쌓임 */
+  }
+
+  .left-image-container,
+  .right-image-container {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  .top-image-container .image-text2 {
+    top: 65%;
+  }
+  .left-image-container .image-text2 {
+    top: 65%;
+  }
+  .right-image-container .image-text2 {
+    top: 70%;
+  }
+  .left-image-container img,
+  .right-image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /*푸터 */
+  .footer-border p {
+    margin: 0;
+  }
+  .footer-border i {
+    margin: 10px;
+  }
+}
